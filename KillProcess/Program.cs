@@ -176,6 +176,10 @@ namespace KillProcess
           return number > 1 ? "are" : "is"; // without a space before
         case "has":
           return number > 1 ? "have" : "has";
+        case "are":
+          return number > 1 ? "are" : "is"; // without a space before
+        case "have":
+          return number > 1 ? "have" : "has";
         case "The":
           return "The"; // CAPITAL, useful because of French plural
         case "the":
