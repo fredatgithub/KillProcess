@@ -17,7 +17,12 @@ namespace KillProcess
       }
 
       // Get all processes and kill some of them
-      var processToKill = new List<string> { "Eraser", "hola", "hubiC", "iTunesHelper", "GrandRobertHA", "supercopier", "PrintScreen", "RobertHA", "Amazon Music Helper", "NvBackend" };
+      var processToKill = new List<string>
+      {
+        "Eraser", "hola", "hubiC", "iTunesHelper", "GrandRobertHA", "supercopier", "PrintScreen", "RobertHA", "Amazon Music Helper", "NvBackend",
+        "ServiceProvider"
+      };
+
       var processKilled = new List<string>();
       foreach (Process process in GetAllProcesses())
       {
