@@ -20,7 +20,10 @@ namespace KillProcess
       var processToKill = new List<string>
       {
         "Eraser", "hola", "hubiC", "iTunesHelper", "GrandRobertHA", "supercopier", "PrintScreen", "RobertHA", "Amazon Music Helper", "NvBackend",
-        "ServiceProvider"
+        "ServiceProvider", "AppleMobileDeviceService", "armsvc", "GfExperienceService", "hola_svc", "hola_updater",
+        "iPodService", "JetBrains.ETW.Collector.Host", "NvNetworkService", "SearchFilterHost", "SearchIndexer",
+        "SearchProtocolHost", "spoolsv", "TeamViewer_Service", "vmware-converter", "vmware-converter-a", "vmware-usbarbitrator"
+        
       };
 
       var processKilled = new List<string>();
