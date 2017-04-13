@@ -19,11 +19,35 @@ namespace KillProcess
       // Get all processes and kill some of them
       var processToKill = new List<string>
       {
-        "Eraser", "hola", "hubiC", "iTunesHelper", "GrandRobertHA", "supercopier", "PrintScreen", "RobertHA", "Amazon Music Helper", "NvBackend",
-        "ServiceProvider", "AppleMobileDeviceService", "armsvc", "GfExperienceService", "hola_svc", "hola_updater",
-        "iPodService", "JetBrains.ETW.Collector.Host", "NvNetworkService", "SearchFilterHost", "SearchIndexer",
-        "SearchProtocolHost", "spoolsv", "TeamViewer_Service", "vmware-converter", "vmware-converter-a", "vmware-usbarbitrator"
-        
+        "Amazon Music Helper", 
+        "AppleMobileDeviceService", 
+        "armsvc", 
+        "Autopilot",
+        "Eraser", 
+        "GfExperienceService", 
+        "GrandRobertHA", 
+        "hola_svc", 
+        "hola_updater",
+        "iPodService", 
+        "JetBrains.ETW.Collector.Host", 
+        "hola", 
+        "hubiC", 
+        "iTunesHelper", 
+        "MEGAAsync",
+        "NvBackend",
+        "NvNetworkService", 
+        "PrintScreen", 
+        "RobertHA", 
+        "SearchFilterHost", 
+        "SearchIndexer",
+        "SearchProtocolHost", 
+        "ServiceProvider", 
+        "spoolsv", 
+        "supercopier", 
+        "TeamViewer_Service", 
+        "vmware-converter", 
+        "vmware-converter-a", 
+        "vmware-usbarbitrator" 
       };
 
       var processKilled = new List<string>();
