@@ -17,6 +17,7 @@ namespace KillProcess
       }
 
       // Get all processes and kill some of them
+      // TODO get them from an XML file
       var processToKill = new List<string>
       {
         "Amazon Music Helper", 
@@ -47,7 +48,8 @@ namespace KillProcess
         "TeamViewer_Service", 
         "vmware-converter", 
         "vmware-converter-a", 
-        "vmware-usbarbitrator" 
+        "vmware-usbarbitrator",
+        "jusched.exe"
       };
 
       var processKilled = new List<string>();
