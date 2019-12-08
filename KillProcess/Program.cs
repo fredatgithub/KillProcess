@@ -49,7 +49,11 @@ namespace KillProcess
         "vmware-converter", 
         "vmware-converter-a", 
         "vmware-usbarbitrator",
-        "jusched.exe"
+        "jusched.exe",
+        "FUFAXRCV",
+        "FUFAXSTM",
+        "AnyDesk",
+        "mep"
       };
 
       var processKilled = new List<string>();
@@ -228,6 +232,11 @@ namespace KillProcess
       WindowsIdentity identity = WindowsIdentity.GetCurrent();
       WindowsPrincipal principal = new WindowsPrincipal(identity);
       return principal.IsInRole(WindowsBuiltInRole.Administrator);
+    }
+
+    public static bool IsAdmin()
+    {
+      return new WindowsPrincipal(WindowsIdentity.GetCurrent()).IsInRole(WindowsBuiltInRole.Administrator);
     }
   }
 }
